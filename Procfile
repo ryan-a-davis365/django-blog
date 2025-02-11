@@ -1,1 +1,1 @@
-web: gunicorn django-blog.wsgi --log-file -
+gunicorn codestar.wsgi --log-file -
